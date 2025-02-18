@@ -1,0 +1,108 @@
+{
+  "staff": [
+    {
+      "category": "Community Manager",
+      "description": "List Admin Server",
+      "members": [
+        {
+          "name": "Tame",
+          "role": "Moderator Chat",
+          "image": "../assets/img/staff/tame.png"
+        },
+        {
+          "name": "Phy0n",
+          "role": "Website Developer",
+          "image": "../assets/img/staff/phion.png"
+        },
+        {
+          "name": "Luhut",
+          "role": "Bot Developer",
+          "image": "../assets/img/staff/luhut.png"
+        }
+      ]
+    },
+    {
+      "category": "Division Manager",
+      "description": "List Manager Division",
+      "members": [
+        {
+          "name": "Phy0n",
+          "role": "Website Developer",
+          "image": "../assets/img/staff/phion.png"
+        }
+      ]
+    },
+    {
+      "category": "Team Management",
+      "description": "List Staff Tetap Server",
+      "members": [
+        {
+          "name": "Lenn",
+          "role": "Partner Manager",
+          "image": "../assets/img/staff/lenn.png"
+        },
+        {
+          "name": "Crystal",
+          "role": "Partner Manager",
+          "image": "../assets/img/staff/crystal.png"
+        },
+        {
+          "name": "Vexzy",
+          "role": "Designer",
+          "image": "../assets/img/staff/vexzy.png"
+        },
+        {
+          "name": "Yura",
+          "role": "Designer",
+          "image": "../assets/img/staff/yura.png"
+        },
+        {
+          "name": "Ivy",
+          "role": "Designer",
+          "image": "../assets/img/staff/ivy.png"
+        },
+        {
+          "name": "Erza",
+          "role": "Moderator",
+          "image": "../assets/img/staff/erza.png"
+        }
+      ]
+    },
+    {
+      "category": "Trainee",
+      "description": "List Trainee Server",
+      "members": [
+        {
+          "name": "Cilla",
+          "role": "Event Organizer",
+          "image": "../assets/img/staff/cilla.png"
+        },
+        {
+          "name": "Zall",
+          "role": "Event Organizer",
+          "image": "../assets/img/staff/nopal.png"
+        },
+        {
+          "name": "Vendrika",
+          "role": "Event Organizer",
+          "image": "../assets/img/staff/vendrika.png"
+        },
+        {
+          "name": "Eyl",
+          "role": "Host",
+          "image": "../assets/img/staff/eyl.png"
+        },
+        {
+          "name": "Lumine",
+          "role": "Host",
+          "image": "../assets/img/staff/lumine.png"
+        },
+        {
+          "name": "Grizzly",
+          "role": "Host",
+          "image": "../assets/img/staff/grizzly.png"
+        }
+      ]
+    }
+  ]
+}

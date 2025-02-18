@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/img/logo.png">
+    <script src="https://kit.fontawesome.com/924d8b81d8.js" crossorigin="anonymous"></script>
+    <title>Smkn5Kiev</title>
+</head>
+<style>
+    *,
+    html,
+    body {
+        scroll-behavior: smooth;
+    }
+</style>
+
+<body>
+    <!-- Header/Navbar -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-black/30 backdrop-blur-md text-white shadow-md">
+        <div class="container mx-auto flex items-center justify-between px-6 py-4">
+            <!-- Logo -->
+            <a href="index.html">
+                <img src="assets/img/logo2.png" class="w-24 sm:w-32" alt="smkn5kiev">
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex items-center gap-6">
+                <a href="#home" class="text-white hover:text-[#e7a77c] transition-all duration-300">Home</a>
+                <a href="#about" class="text-white hover:text-[#e7a77c] transition-all duration-300">About</a>
+                <a href="pages/leaderboard.html"
+                    class="text-white hover:text-[#e7a77c] transition-all duration-300">Leaderboard</a>
+                <a href="pages/staff.html" class="text-white hover:text-[#e7a77c] transition-all duration-300">Staff</a>
+                <a href="pages/donate.html"
+                    class="text-white hover:text-[#e7a77c] transition-all duration-300">Donate</a>
+                <a href="pages/rules.html" class="text-white hover:text-[#e7a77c] transition-all duration-300">Rules</a>
+                <a href="pages/recruitment.html"
+                    class="bg-[#aa724d] hover:bg-[#6d4c35] border-none py-2 px-5 w-auto rounded-xl text-lightcoral shadow-[0_0.4rem_0_0_#dfd9d9] cursor-pointer hover:bg-lightcoral hover:text-white  active:shadow-[0_0.2rem_0_0_#dfd9d9] active:translate-y-1 disabled:cursor-auto disabled:text-gray-500 text-center">Recruitment</a>
+            </nav>
+
+            <!-- Mobile Menu Button -->
+            <button id="hamburger"
+                class="block md:hidden focus:outline-none transition-transform duration-300 transform hover:scale-125">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+
+            <!-- Mobile Dropdown Menu -->
+            <div id="dropdown-menu"
+                class="hidden md:hidden absolute top-16 right-4 w-64 bg-black/90 border border-[#aa724d] p-4 rounded-xl shadow-lg text-center backdrop-blur-lg transition-all duration-300">
+                <a href="#home"
+                    class="block text-white px-6 py-3 rounded-lg hover:bg-gray-800 hover:text-[#aa724d] transition-all duration-300">🏠
+                    Home</a>
+                <a href="#about"
+                    class="block text-white px-6 py-3 rounded-lg hover:bg-gray-800 hover:text-[#aa724d] transition-all duration-300">📸
+                    About</a>
+                <a href="pages/leaderboard.html"
+                    class="block text-white px-6 py-3 rounded-lg hover:bg-gray-800 hover:text-[#aa724d] transition-all duration-300">🏆
+                    Leaderboard</a>
+                <a href="pages/staff.html"
+                    class="block text-white px-6 py-3 rounded-lg hover:bg-gray-800 hover:text-[#aa724d] transition-all duration-300">👥
+                    Staff</a>
+                <a href="pages/donate.html"
+                    class="block text-white px-6 py-3 rounded-lg hover:bg-gray-800 hover:text-[#aa724d] transition-all duration-300">💰
+                    Donate</a>
+                <a href="pages/rules.html"
+                    class="block text-white px-6 py-3 rounded-lg hover:bg-gray-800 hover:text-[#aa724d] transition-all duration-300">📜
+                    Rules</a>
+                <a href="pages/recruitment.html"
+                    class="block text-white bg-[#aa724d] hover:bg-[#6d4c35] px-6 py-3 rounded-lg transition-all duration-300">📚
+                    Recruitment</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION HOME -->
+    <section class="relative h-screen flex items-center overflow-hidden" id="home">
+        <!-- Background Layers -->
+        <div id="home-bg" class="absolute inset-0 bg-cover bg-center transition-opacity duration-1000"
+            style="background-image: url('assets/img/yuki.png');">
+        </div>
+        <div id="home-bg-next" class="absolute inset-0 bg-cover bg-center opacity-0 transition-opacity duration-1000">
+        </div>
+
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black/80 z-10"></div>
+
+        <!-- Content -->
+        <div class="relative z-20 mx-5 sm:mx-10 lg:mx-40 text-white">
+            <div class="mb-5">
+                <h3 class="text-xl sm:text-2xl font-semibold tracking-wide text-[#d49163]" data-aos="fade-right">
+                    SMKN 5 KIEV
+                </h3>
+                <h1 class="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-wider mb-4" data-aos="fade-right">
+                    BEST <span class="text-[#d49163]">INDONESIA</span> DISCORD SERVER
+                </h1>
+                <p class="text-sm sm:text-lg lg:text-xl leading-relaxed lg:w-3/5" data-aos="fade-right">
+                    SMKN 5 Kiev's Discord server is the best in Indonesia! It's a vibrant community where everyone can
+                    connect, chat, and have fun together. Join us and see what makes us stand out!
+                </p>
+            </div>
+            <div class="flex md:justify-start" data-aos="fade-right">
+                <a href="#about" target="_blank"
+                    class="bg-[#aa724d] hover:bg-[#6d4c35] border-none py-2 px-7 text-base w-auto rounded-xl text-lightcoral shadow-[0_0.4rem_0_0_#dfd9d9] cursor-pointer hover:bg-lightcoral hover:text-white active:shadow-[0_0.2rem_0_0_#dfd9d9] active:translate-y-1 disabled:cursor-auto disabled:text-gray-500 text-center">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="h-auto bg-black/90 text-white flex justify-center items-center p-5 py-36 shadow-4xl" id="about">
+        <div class="bg-black/25 flex flex-col justify-center items-center p-7 rounded-lg shadow-lg max-w-4xl mx-auto space-y-8 bg-gradient-to-b from-[#2e2e2e] to-black"
+            data-aos="fade-up">
+            <!-- Header Section -->
+            <div class="text-center">
+                <h1 class="text-xl sm:text-2xl md:text-3xl  font-bold">
+                    📸 ABOUT <span class="text-[#d49163]">SMKN 5 KIEV</span>
+                </h1>
+            </div>
+            <!-- Content Section -->
+            <div class="flex flex-col md:flex-row justify-center items-center gap-8">
+                <!-- Image Section -->
+                <div class="w-52 md:w-1/2 ">
+                    <img src="assets/img/about.jpeg" alt="About Image" class="w-full rounded-lg shadow-lg">
+                </div>
+                <!-- Text Section -->
+                <div class="w-full md:w-1/2 text-left md:text-left space-y-6 md:space-y-8">
+                    <!-- About Us -->
+                    <div class="space-y-4">
+                        <h4 class="text-lg sm:text-xl lg:text-2xl font-semibold">ABOUT US</h4>
+                        <p class="text-gray-400 text-sm sm:text-base leading-relaxed">
+                            Welcome to our server named SMKN 5 KIEV. For those who don't know yet, this server is a
+                            community aimed at having fun and making friends. The server was created on January 19,
+                            2023, at
+                            6:00 AM.
+                        </p>
+                    </div>
+                    <!-- History -->
+                    <div class="space-y-4">
+                        <h4 class="text-lg sm:text-xl lg:text-2xl font-semibold">HISTORY</h4>
+                        <p class="text-gray-400 text-sm sm:text-base leading-relaxed">
+                            This server was initially created for a Minecraft server community called Voxnet.work. Many
+                            players joined this Discord server. However, as time passed, the number of participants
+                            decreased. We transformed this server into a place for casual chatting.
+                        </p>
+                    </div>
+                    <!-- Founder -->
+                    <div class="space-y-4">
+                        <h4 class="text-lg sm:text-xl lg:text-2xl font-semibold">FOUNDER</h4>
+                        <p class="text-gray-400 text-sm sm:text-base leading-relaxed">
+                            I am Phy0n the creator of this server. Initially, I created this server for playing
+                            Minecraft with
+                            friends. Over time, I decided to turn this server into a Minecraft community. Later, it
+                            evolved
+                            into a regular community server for casual chatting.
+                        </p>
+                    </div>
+                    <!-- Join Us Button -->
+                    <div class="flex justify-center md:justify-start">
+                        <a href="https://discord.gg/MwNE7Vfb6t" target="_blank"
+                            class="bg-[#aa724d] hover:bg-[#6d4c35] border-none py-2 px-6 text-base w-auto rounded-xl text-lightcoral shadow-[0_0.4rem_0_0_#dfd9d9] cursor-pointer hover:bg-lightcoral hover:text-white  active:shadow-[0_0.2rem_0_0_#dfd9d9] active:translate-y-1 disabled:cursor-auto disabled:text-gray-500 text-center">
+                            Join Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="bg-zinc-950 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <!-- Logo & Deskripsi -->
+                <div class="text-center md:text-left" data-aos="fade-out" data-aos-anchor-placement="top-bottom">
+                    <img src="assets/img/logo2.png" class="w-52 mx-auto md:mx-0">
+                    <p class="text-sm sm:text-base leading-relaxed mt-4 max-w-md mx-auto md:mx-0">
+                        We created this server to have fun and build a friendly community. We'd be thrilled if you
+                        joined us, and we're here to welcome you with open arms! Let's make some great memories
+                        together!
+                    </p>
+                </div>
+
+                <!-- Sosial Media -->
+                <div class="flex flex-col items-center md:items-end space-y-4" data-aos="fade-out"
+                    data-aos-anchor-placement="top-bottom">
+                    <h2 class="text-lg sm:text-xl font-semibold">Follow Us</h2>
+                    <div class="flex gap-6">
+                        <a href="https://discord.gg/MwNE7Vfb6t"
+                            class="text-[#d49163] hover:text-[#6d4c35] transition transform hover:scale-110">
+                            <i class="fab fa-discord text-3xl"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@smkn5kiev.id"
+                            class="text-[#d49163] hover:text-[#6d4c35] transition transform hover:scale-110">
+                            <i class="fab fa-tiktok text-3xl"></i>
+                        </a>
+                        <a href="https://www.instagram.com/smkn5kiev.id/"
+                            class="text-[#d49163] hover:text-[#6d4c35] transition transform hover:scale-110">
+                            <i class="fab fa-instagram text-3xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Garis Pemisah -->
+            <div class="border-t border-[#d49163] mt-8 pt-4 text-center text-sm text-[#fffff]">
+                © 2025 SMKN 5 KIEV. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
