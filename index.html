@@ -511,35 +511,102 @@
     </section>
 
     <!-- Rules of Discord Server -->
-    <div class="sectionRules bg-black/90 bg-cover bg-center flex flex-col justify-center text-white py-36 px-4"
-        id="rules">
-        <div class="rulesContainer container mx-auto" data-aos="fade-up">
-            <div class="rulesBox bg-black/25 bg-opacity-75 rounded-lg shadow-lg p-7">
-                <div class="rulesBox-item">
+    <section class="bg-black/90 bg-cover bg-center py-36" id="rules">
+        <div class="rulesContainer container mx-auto px-4" data-aos="fade-up">
+            <div class="rulesBox bg-black/25 flex justify-center grid bg-opacity-75 rounded-lg shadow-lg p-7">
+                <div class="rulesBox-item ">
                     <div class="rulesBox-itemTitle text-center mb-6">
                         <h1 class="text-xl sm:text-2xl md:text-3xl font-bold">
                             📜 <span class="text-[#d49163]">SERVER RULES</span>
                         </h1>
                     </div>
-
-                    <!-- Rules Card -->
-                    <div
-                        class="bg-zinc-800 bg-opacity-90 rounded-xl p-5 w-full sm:w-96 shadow-lg border-2 bg-gradient-to-b from-[#2e2e2e] to-black border-[#e7a77c] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer mx-auto max-w-md">
+                    <div class="mb-6 text-center text-gray-300 flex justify-center text-center text-sm">
+                        <p class="max-w-4xl ">Welcome to our community! To ensure everyone has a great experience, we
+                            ask that you follow
+                            these
+                            simple rules. Let's work together to create a respectful, fun, and welcoming environment for
+                            all
+                            members!</p>
+                    </div>
+                    <div class="flex flex-wrap justify-center gap-6">
+                        <!-- Rule Card -->
                         <div
-                            class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
+                            class="bg-zinc-800 w-full sm:w-80 bg-opacity-90 rounded-xl p-5 shadow-lg border-2 bg-gradient-to-b from-[#2e2e2e] to-black border-[#e7a77c] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
+                            <div
+                                class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
+                            </div>
+                            <h2 class="text-lg font-semibold text-white">General Rules</h2>
+                            <ul class="text-gray-400 text-sm mt-2 list-disc list-inside">
+                                <li>Respect other members</li>
+                                <li>Use common sense</li>
+                            </ul>
+                            <p class="text-gray-400 text-sm mt-4"><strong>Punishment:</strong> <em>Mute 1h - Ban</em>
+                            </p>
                         </div>
-                        <h2 class="text-lg font-semibold text-white">General Rules</h2>
-                        <ul class="text-gray-400 text-sm mt-2 list-disc list-inside">
-                            <li>Respect other members</li>
-                            <li>Use your brain (optional)</li>
-                        </ul>
-                        <p class="text-gray-400 text-sm mt-4"><strong>Punishment :</strong> <em>Mute 1h - Banned</em>
-                        </p>
+
+                        <div
+                            class="bg-zinc-800 w-full sm:w-80 bg-opacity-90 rounded-xl p-5 shadow-lg border-2 bg-gradient-to-b from-[#2e2e2e] to-black border-[#e7a77c] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
+                            <div
+                                class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
+                            </div>
+                            <h2 class="text-lg font-semibold text-white">No Spamming</h2>
+                            <ul class="text-gray-400 text-sm mt-2 list-disc list-inside">
+                                <li>Do not send spam or flood the chat</li>
+                                <li>Avoid excessive use of caps lock</li>
+                            </ul>
+                            <p class="text-gray-400 text-sm mt-4"><strong>Punishment:</strong> <em>Warning - Mute
+                                    6h</em>
+                            </p>
+                        </div>
+
+                        <div
+                            class="bg-zinc-800 w-full sm:w-80 bg-opacity-90 rounded-xl p-5 shadow-lg border-2 bg-gradient-to-b from-[#2e2e2e] to-black border-[#e7a77c] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
+                            <div
+                                class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
+                            </div>
+                            <h2 class="text-lg font-semibold text-white">Use Channels Properly</h2>
+                            <ul class="text-gray-400 text-sm mt-2 list-disc list-inside">
+                                <li>Post in the appropriate channels</li>
+                                <li>Read channel descriptions before posting</li>
+                            </ul>
+                            <p class="text-gray-400 text-sm mt-4"><strong>Punishment:</strong> <em>Warning - Mute
+                                    1h</em>
+                            </p>
+                        </div>
+
+                        <div
+                            class="bg-zinc-800 w-full sm:w-80 bg-opacity-90 rounded-xl p-5 shadow-lg border-2 bg-gradient-to-b from-[#2e2e2e] to-black border-[#e7a77c] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
+                            <div
+                                class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
+                            </div>
+                            <h2 class="text-lg font-semibold text-white">No NSFW & Toxic Behavior</h2>
+                            <ul class="text-gray-400 text-sm mt-2 list-disc list-inside">
+                                <li>Do not share NSFW content</li>
+                                <li>Avoid hate speech and trolling</li>
+                            </ul>
+                            <p class="text-gray-400 text-sm mt-4"><strong>Punishment:</strong> <em>Mute 12h - Ban</em>
+                            </p>
+                        </div>
+
+                        <div
+                            class="bg-zinc-800 w-full sm:w-80 bg-opacity-90 rounded-xl p-5 shadow-lg border-2 bg-gradient-to-b from-[#2e2e2e] to-black border-[#e7a77c] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
+                            <div
+                                class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
+                            </div>
+                            <h2 class="text-lg font-semibold text-white">No Drama & Provocation</h2>
+                            <ul class="text-gray-400 text-sm mt-2 list-disc list-inside">
+                                <li>Do not start unnecessary arguments</li>
+                                <li>Respect others' opinions</li>
+                            </ul>
+                            <p class="text-gray-400 text-sm mt-4"><strong>Punishment:</strong> <em>Warning - Mute
+                                    6h</em>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Recruitment Card -->
     <section
@@ -559,8 +626,10 @@
                             <div
                                 class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                             </div>
-                            <h2 class="text-lg sm:text-xl font-semibold text-white text-center">🛡️ Moderator Chat</h2>
-                            <p class="text-sm text-gray-300 text-center">Helps keep the chat atmosphere comfortable and
+                            <h2 class="text-lg sm:text-xl font-semibold text-white text-center">🛡️ Moderator Chat
+                            </h2>
+                            <p class="text-sm text-gray-300 text-center">Helps keep the chat atmosphere comfortable
+                                and
                                 conducive.</p>
                             <p class="text-xs text-green-400 text-center mt-auto">Status : Open</p>
                         </div>
@@ -570,7 +639,8 @@
                                 class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                             </div>
                             <h2 class="text-lg sm:text-xl font-semibold text-white text-center">🎤 Host Event</h2>
-                            <p class="text-sm text-gray-300 text-center">Organize and lead exciting events to community.
+                            <p class="text-sm text-gray-300 text-center">Organize and lead exciting events to
+                                community.
                             </p>
                             <p class="text-xs text-green-400 text-center mt-auto">Status : Open</p>
                         </div>
@@ -579,8 +649,10 @@
                             <div
                                 class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                             </div>
-                            <h2 class="text-lg sm:text-xl font-semibold text-white text-center">🌟 Brand Ambassador</h2>
-                            <p class="text-sm text-gray-300 text-center">Improve server image in the outside world.</p>
+                            <h2 class="text-lg sm:text-xl font-semibold text-white text-center">🌟 Brand Ambassador
+                            </h2>
+                            <p class="text-sm text-gray-300 text-center">Improve server image in the outside world.
+                            </p>
                             <p class="text-xs text-green-400 text-center mt-auto">Status : Open</p>
                         </div>
                         <div
@@ -588,7 +660,8 @@
                             <div
                                 class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                             </div>
-                            <h2 class="text-lg sm:text-xl font-semibold text-white text-center">🎭 Event Organizer</h2>
+                            <h2 class="text-lg sm:text-xl font-semibold text-white text-center">🎭 Event Organizer
+                            </h2>
                             <p class="text-sm text-gray-300 text-center">Plan and run creative events for community.
                             </p>
                             <p class="text-xs text-green-400 text-center mt-auto">Status : Open</p>
@@ -598,7 +671,8 @@
                             <div
                                 class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                             </div>
-                            <h2 class="text-lg sm:text-xl font-semibold text-white text-center">🤝 Partner Manager</h2>
+                            <h2 class="text-lg sm:text-xl font-semibold text-white text-center">🤝 Partner Manager
+                            </h2>
                             <p class="text-sm text-gray-300 text-center">Establish cooperation with the community or
                                 other organizations.</p>
                             <p class="text-xs text-green-400 text-center mt-auto">Status : Open</p>
@@ -618,16 +692,19 @@
                             <div
                                 class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                             </div>
-                            <h2 class="text-lg sm:text-xl font-semibold text-white text-center">📢 Human Resource</h2>
+                            <h2 class="text-lg sm:text-xl font-semibold text-white text-center">📢 Human Resource
+                            </h2>
                             <p class="text-sm text-gray-300 text-center">Helps recruit and manage other staff.
                             </p>
                             <p class="text-xs text-red-500 text-center mt-auto">Status : Close</p>
                         </div>
                     </div>
                     <div class="text-center my-9 justify-center flex">
-                        <p class="sm:max-w-[60vw] text-gray-400 text-sm ">All of these positions are not paid. We are
+                        <p class="sm:max-w-[60vw] text-gray-400 text-sm ">All of these positions are not paid. We
+                            are
                             looking for people who volunteer and have desires sincere for help this
-                            server develop. Your passion to contribute and build community that better is the thing we
+                            server develop. Your passion to contribute and build community that better is the thing
+                            we
                             value the most!</p>
                     </div>
                     <div class="flex justify-center">
