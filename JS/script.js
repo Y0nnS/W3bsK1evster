@@ -16,7 +16,14 @@ function toggleMenu() {
 const hamburger = document.getElementById("hamburger");
 const dropdownMenu = document.getElementById("dropdown-menu");
 
-hamburger.addEventListener("click", () => {
+document.addEventListener("click", (event) => {
+    if (!hamburger.contains(event.target) && !dropdownMenu.contains(event.target)) {
+        dropdownMenu.classList.add("hidden");
+    }
+});
+
+hamburger.addEventListener("click", (event) => {
+    event.stopPropagation(); // Mencegah event dari mencapai document listener
     dropdownMenu.classList.toggle("hidden");
 });
 
