@@ -160,3 +160,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     setInterval(changeBackground, 5000);
 });
+
+// REFRESH LOGO
+const logo = document.getElementById("logo");
+logo.addEventListener("click", () => {
+    location.reload();
+});
