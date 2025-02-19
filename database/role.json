@@ -1,0 +1,14 @@
+[
+    {
+        "icon": "🏆",
+        "name": "Top Monthly Chat",
+        "description": "For members actively engaging in text chats. Open to everyone!",
+        "tag": "Top #1 Chat"
+    },
+    {
+        "icon": "🎙️",
+        "name": "Top Monthly Voice",
+        "description": "Given to members who frequently join and contribute in voice channels.",
+        "tag": "Top #1 Voice"
+    }
+]

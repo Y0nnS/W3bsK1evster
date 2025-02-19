@@ -20,7 +20,7 @@
 
 <body>
     <!-- Header/Navbar -->
-    <header class="fixed top-0 left-0 w-full z-50 bg-black/30 backdrop-blur-md text-white shadow-md">
+    <header class="fixed top-0 left-0 w-full z-50 bg-black/80 backdrop-blur-md text-white shadow-md">
         <div class="container mx-auto flex items-center justify-between px-4">
             <!-- Logo -->
             <img src="assets/img/logo2.png" id="logo" class="w-40 sm:w-36 cursor-pointer" alt="smkn5kiev">
@@ -34,6 +34,7 @@
                 <a href="#organization" class="text-white hover:text-[#e7a77c] transition-all duration-300">Staff</a>
                 <a href="#donate" class="text-white hover:text-[#e7a77c] transition-all duration-300">Donate</a>
                 <a href="#rules" class="text-white hover:text-[#e7a77c] transition-all duration-300">Rules</a>
+                <a href="#roles" class="text-white hover:text-[#e7a77c] transition-all duration-300">Roles</a>
                 <a href="#recruitment"
                     class="bg-[#aa724d] hover:bg-[#6d4c35] border-none py-2 px-5 w-auto rounded-xl text-lightcoral shadow-[0_0.4rem_0_0_#dfd9d9] cursor-pointer hover:bg-lightcoral hover:text-white  active:shadow-[0_0.2rem_0_0_#dfd9d9] active:translate-y-1 disabled:cursor-auto disabled:text-gray-500 text-center">Recruitment</a>
             </nav>
@@ -51,23 +52,26 @@
             <div id="dropdown-menu"
                 class="hidden md:hidden absolute top-16 right-4 w-64 bg-black/90 border border-[#aa724d] p-4 rounded-xl shadow-lg text-center backdrop-blur-lg transition-all duration-300">
                 <a href="#home"
-                    class="block text-white px-6 py-3 rounded-lg hover:bg-gray-800 hover:text-[#aa724d] transition-all duration-300">🏠
+                    class="block text-white px-6 py-3 rounded-lg hover:bg-zinc-800 bg-opacity-90 hover:text-[#aa724d] transition-all duration-300">🏠
                     Home</a>
                 <a href="#about"
-                    class="block text-white px-6 py-3 rounded-lg hover:bg-gray-800 hover:text-[#aa724d] transition-all duration-300">📸
+                    class="block text-white px-6 py-3 rounded-lg hover:bg-zinc-800 bg-opacity-90 hover:text-[#aa724d] transition-all duration-300">📸
                     About</a>
                 <a href="#leaderboard"
-                    class="block text-white px-6 py-3 rounded-lg hover:bg-gray-800 hover:text-[#aa724d] transition-all duration-300">🏆
+                    class="block text-white px-6 py-3 rounded-lg hover:bg-zinc-800 bg-opacity-90 hover:text-[#aa724d] transition-all duration-300">🏆
                     Leaderboard</a>
                 <a href="#organization"
-                    class="block text-white px-6 py-3 rounded-lg hover:bg-gray-800 hover:text-[#aa724d] transition-all duration-300">👥
+                    class="block text-white px-6 py-3 rounded-lg hover:bg-zinc-800 bg-opacity-90 hover:text-[#aa724d] transition-all duration-300">👥
                     Staff</a>
                 <a href="#donate"
-                    class="block text-white px-6 py-3 rounded-lg hover:bg-gray-800 hover:text-[#aa724d] transition-all duration-300">💰
+                    class="block text-white px-6 py-3 rounded-lg hover:bg-zinc-800 bg-opacity-90 hover:text-[#aa724d] transition-all duration-300">💰
                     Donate</a>
                 <a href="#rules"
-                    class="block text-white px-6 py-3 rounded-lg hover:bg-gray-800 hover:text-[#aa724d] transition-all duration-300">📜
+                    class="block text-white px-6 py-3 rounded-lg hover:bg-zinc-800 bg-opacity-90 hover:text-[#aa724d] transition-all duration-300">📜
                     Rules</a>
+                <a href="#roles"
+                    class="block text-white px-6 py-3 rounded-lg hover:bg-zinc-800 bg-opacity-90 hover:text-[#aa724d] transition-all duration-300">⭐
+                    Roles</a>
                 <a href="#recruitment"
                     class="block text-white bg-[#aa724d] hover:bg-[#6d4c35] px-6 py-3 rounded-lg transition-all duration-300">📚
                     Recruitment</a>
@@ -111,8 +115,10 @@
     </section>
 
     <!-- ABOUT -->
-    <section class="h-auto bg-black/90 text-white flex justify-center items-center p-5 py-36 shadow-4xl" id="about">
-        <div class="bg-black/25 flex flex-col justify-center items-center p-7 rounded-lg shadow-lg max-w-4xl mx-auto space-y-8 bg-gradient-to-b from-[#2e2e2e] to-black"
+    <section
+        class="h-auto text-white flex justify-center items-center p-5 py-36 shadow-4xl bg-gradient-to-b from-[#d49163] to-black/90 "
+        id="about">
+        <div class="bg-black/25 flex flex-col justify-center items-center p-7 rounded-lg shadow-lg max-w-4xl mx-auto space-y-8 bg-gradient-to-b from-[#2e2e2e] to-black/70"
             data-aos="fade-up">
             <!-- Header Section -->
             <div class="text-center">
@@ -223,7 +229,7 @@
                     <div class="organizationBox-itemList flex flex-wrap gap-4 justify-center">
                         <!-- Community Manager -->
                         <div
-                            class="relative bg-gradient-to-b from-[#2e2e2e] to-black bg-zinc-800 bg-opacity-90 rounded-xl p-5 w-72 shadow-lg border-2 border-[#e7a77c] 
+                            class="relative bg-gradient-to-b from-[#2e2e2e] to-black/70 bg-zinc-800 bg-opacity-90 rounded-xl p-5 w-72 shadow-lg border border-[#e7a77c] 
                                 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
                             <div class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 
                                     group-hover:opacity-100 transition-all duration-500"></div>
@@ -238,7 +244,7 @@
 
                         <!-- Division Manager -->
                         <div
-                            class="relative bg-gradient-to-b from-[#2e2e2e] to-black bg-zinc-800 bg-opacity-90 rounded-xl p-5 w-72 shadow-lg border-2 border-[#e7a77c] 
+                            class="relative bg-gradient-to-b from-[#2e2e2e] to-black/70 bg-zinc-800 bg-opacity-90 rounded-xl p-5 w-72 shadow-lg border border-[#e7a77c] 
                                 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
                             <div class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 
                                     group-hover:opacity-100 transition-all duration-500"></div>
@@ -252,7 +258,7 @@
 
                         <!-- Team Management -->
                         <div
-                            class="relative bg-gradient-to-b from-[#2e2e2e] to-black bg-zinc-800 bg-opacity-90 rounded-xl p-5 w-72 shadow-lg border-2 border-[#e7a77c] 
+                            class="relative bg-gradient-to-b from-[#2e2e2e] to-black/70 bg-zinc-800 bg-opacity-90 rounded-xl p-5 w-72 shadow-lg border border-[#e7a77c] 
                                 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
                             <div class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 
                                     group-hover:opacity-100 transition-all duration-500"></div>
@@ -349,7 +355,7 @@
 
                         <!-- Trainee -->
                         <div
-                            class="relative bg-gradient-to-b from-[#2e2e2e] to-black bg-zinc-800 bg-opacity-90 rounded-xl p-5 w-72 shadow-lg border-2 border-[#e7a77c] 
+                            class="relative bg-gradient-to-b from-[#2e2e2e] to-black/70 bg-zinc-800 bg-opacity-90 rounded-xl p-5 w-72 shadow-lg border border-[#e7a77c] 
                                 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
                             <div class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 
                                     group-hover:opacity-100 transition-all duration-500"></div>
@@ -391,7 +397,7 @@
                     <div class="donateBox-itemList flex flex-wrap gap-4 justify-center">
                         <!-- Donation Option 1 -->
                         <div
-                            class="flex flex-col gap-4 bg-zinc-800 bg-opacity-90 bg-gradient-to-b from-[#2e2e2e] to-black rounded-xl p-5 w-96 sm:w-80 shadow-lg border-2 border-[#e7a77c] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
+                            class="flex flex-col gap-4 bg-zinc-800 bg-opacity-90 bg-gradient-to-b from-[#2e2e2e] to-black/70 rounded-xl p-5 w-96 sm:w-80 shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
                             <div
                                 class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                             </div>
@@ -415,7 +421,7 @@
 
                         <!-- Donation Option 2 -->
                         <div
-                            class="flex flex-col gap-4 bg-zinc-800 bg-opacity-90 bg-gradient-to-b from-[#2e2e2e] to-black rounded-xl p-5 w-96 sm:w-80 shadow-lg border-2 border-[#e7a77c] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
+                            class="flex flex-col gap-4 bg-zinc-800 bg-opacity-90 bg-gradient-to-b from-[#2e2e2e] to-black/70 rounded-xl p-5 w-96 sm:w-80 shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
                             <div
                                 class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                             </div>
@@ -439,7 +445,7 @@
 
                         <!-- Donation Option 3 -->
                         <div
-                            class="flex flex-col gap-4 bg-zinc-800 bg-opacity-90 bg-gradient-to-b from-[#2e2e2e] to-black rounded-xl p-5 w-96 sm:w-80 shadow-lg border-2 border-[#e7a77c] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
+                            class="flex flex-col gap-4 bg-zinc-800 bg-opacity-90 bg-gradient-to-b from-[#2e2e2e] to-black/70 rounded-xl p-5 w-96 sm:w-80 shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
                             <div
                                 class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                             </div>
@@ -461,7 +467,7 @@
 
                         <!-- Donation Option 4 -->
                         <div
-                            class="flex flex-col gap-4 bg-zinc-800 bg-opacity-90 bg-gradient-to-b from-[#2e2e2e] to-black rounded-xl p-5 w-96 sm:w-80 shadow-lg border-2 border-[#e7a77c] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
+                            class="flex flex-col gap-4 bg-zinc-800 bg-opacity-90 bg-gradient-to-b from-[#2e2e2e] to-black/70 rounded-xl p-5 w-96 sm:w-80 shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
                             <div
                                 class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                             </div>
@@ -531,11 +537,11 @@
                     <div class="flex flex-wrap justify-center gap-6">
                         <!-- Rule Card -->
                         <div
-                            class="bg-zinc-800 w-full sm:w-80 bg-opacity-90 rounded-xl p-5 shadow-lg border-2 bg-gradient-to-b from-[#2e2e2e] to-black border-[#e7a77c] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
+                            class="bg-zinc-800 w-full sm:w-80 bg-opacity-90 rounded-xl p-5 shadow-lg bg-gradient-to-b from-[#2e2e2e] to-black/70 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
                             <div
                                 class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                             </div>
-                            <h2 class="text-lg font-semibold text-white">General Rules</h2>
+                            <h2 class="text-lg font-semibold text-white">📌 General Rules</h2>
                             <ul class="text-gray-400 text-sm mt-2 list-disc list-inside">
                                 <li>Respect other members</li>
                                 <li>Use common sense</li>
@@ -545,11 +551,11 @@
                         </div>
 
                         <div
-                            class="bg-zinc-800 w-full sm:w-80 bg-opacity-90 rounded-xl p-5 shadow-lg border-2 bg-gradient-to-b from-[#2e2e2e] to-black border-[#e7a77c] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
+                            class="bg-zinc-800 w-full sm:w-80 bg-opacity-90 rounded-xl p-5 shadow-lg bg-gradient-to-b from-[#2e2e2e] to-black/70 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
                             <div
                                 class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                             </div>
-                            <h2 class="text-lg font-semibold text-white">No Spamming</h2>
+                            <h2 class="text-lg font-semibold text-white">📌 No Spamming</h2>
                             <ul class="text-gray-400 text-sm mt-2 list-disc list-inside">
                                 <li>Do not send spam or flood the chat</li>
                                 <li>Avoid excessive use of caps lock</li>
@@ -560,11 +566,11 @@
                         </div>
 
                         <div
-                            class="bg-zinc-800 w-full sm:w-80 bg-opacity-90 rounded-xl p-5 shadow-lg border-2 bg-gradient-to-b from-[#2e2e2e] to-black border-[#e7a77c] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
+                            class="bg-zinc-800 w-full sm:w-80 bg-opacity-90 rounded-xl p-5 shadow-lg bg-gradient-to-b from-[#2e2e2e] to-black/70 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
                             <div
                                 class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                             </div>
-                            <h2 class="text-lg font-semibold text-white">Use Channels Properly</h2>
+                            <h2 class="text-lg font-semibold text-white">📌 Use Channels Properly</h2>
                             <ul class="text-gray-400 text-sm mt-2 list-disc list-inside">
                                 <li>Post in the appropriate channels</li>
                                 <li>Read channel descriptions before posting</li>
@@ -575,11 +581,11 @@
                         </div>
 
                         <div
-                            class="bg-zinc-800 w-full sm:w-80 bg-opacity-90 rounded-xl p-5 shadow-lg border-2 bg-gradient-to-b from-[#2e2e2e] to-black border-[#e7a77c] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
+                            class="bg-zinc-800 w-full sm:w-80 bg-opacity-90 rounded-xl p-5 shadow-lg bg-gradient-to-b from-[#2e2e2e] to-black/70 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
                             <div
                                 class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                             </div>
-                            <h2 class="text-lg font-semibold text-white">No NSFW & Toxic Behavior</h2>
+                            <h2 class="text-lg font-semibold text-white">📌 No NSFW & Toxic Behavior</h2>
                             <ul class="text-gray-400 text-sm mt-2 list-disc list-inside">
                                 <li>Do not share NSFW content</li>
                                 <li>Avoid hate speech and trolling</li>
@@ -589,11 +595,11 @@
                         </div>
 
                         <div
-                            class="bg-zinc-800 w-full sm:w-80 bg-opacity-90 rounded-xl p-5 shadow-lg border-2 bg-gradient-to-b from-[#2e2e2e] to-black border-[#e7a77c] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
+                            class="bg-zinc-800 w-full sm:w-80 bg-opacity-90 rounded-xl p-5 shadow-lg bg-gradient-to-b from-[#2e2e2e] to-black/70 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
                             <div
                                 class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                             </div>
-                            <h2 class="text-lg font-semibold text-white">No Drama & Provocation</h2>
+                            <h2 class="text-lg font-semibold text-white">📌 No Drama & Provocation</h2>
                             <ul class="text-gray-400 text-sm mt-2 list-disc list-inside">
                                 <li>Do not start unnecessary arguments</li>
                                 <li>Respect others' opinions</li>
@@ -608,12 +614,26 @@
         </div>
     </section>
 
+    <!-- Role -->
+    <section class="py-36 px-6 bg-black/90 text-white" id="roles">
+        <div class="container mx-auto text-left bg-black/25 backdrop-blur-sm grid bg-opacity-75 rounded-lg shadow-lg p-7"
+            data-aos="fade-up">
+            <h1 class="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-6">⭐ DISPLAY ROLES <span
+                    class="text-[#d49163]">SMKN 5 KIEV</span></h1>
+            <p class="text-gray-300 max-w-2xl mx-auto mb-10 text-center">
+                Discover the different roles in our server! Each role has its own perks and significance in the
+                community.
+            </p>
+            <div class="flex flex-wrap gap-6 justify-center" id="roledisplay"></div>
+        </div>
+    </section>
+
     <!-- Recruitment Card -->
     <section
-        class="recruitmentCard bg-black/90 bg-cover bg-center min-h-screen flex flex-col justify-center text-white py-36"
+        class="recruitmentCard bg-gradient-to-b from-black/90 to-[#d49163] bg-cover bg-center min-h-screen flex flex-col justify-center text-white py-36"
         id="recruitment">
         <div class="recruitmentContainer container mx-auto px-4" data-aos="fade-up">
-            <div class="recruitmentBox bg-black/25 bg-opacity-75 rounded-lg shadow-lg p-7">
+            <div class="recruitmentBox bg-black/75 bg-opacity-75 rounded-lg shadow-lg p-7">
                 <div class="recruitmentBox-item">
                     <div class="recruitmentBox-itemTitle text-center mb-6">
                         <h1 class="text-xl sm:text-2xl md:text-3xl font-bold">📚 RECRUITMENT <span
@@ -622,7 +642,7 @@
                     </div>
                     <div class="recruitmentBox-itemList flex flex-wrap gap-4 justify-center">
                         <div
-                            class="flex flex-col gap-4 bg-zinc-800 bg-opacity-90 bg-gradient-to-b from-[#2e2e2e] to-black rounded-xl p-5 w-96 sm:w-72 shadow-lg border-2 border-[#e7a77c] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
+                            class="flex flex-col gap-4 bg-zinc-800 bg-opacity-90 bg-gradient-to-b from-[#2e2e2e] to-black/70 rounded-xl p-5 w-96 sm:w-72 shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
                             <div
                                 class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                             </div>
@@ -634,7 +654,7 @@
                             <p class="text-xs text-green-400 text-center mt-auto">Status : Open</p>
                         </div>
                         <div
-                            class="flex flex-col gap-4 bg-zinc-800 bg-opacity-90 bg-gradient-to-b from-[#2e2e2e] to-black rounded-xl p-5 w-96 sm:w-72 shadow-lg border-2 border-[#e7a77c] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
+                            class="flex flex-col gap-4 bg-zinc-800 bg-opacity-90 bg-gradient-to-b from-[#2e2e2e] to-black/70 rounded-xl p-5 w-96 sm:w-72 shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
                             <div
                                 class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                             </div>
@@ -645,7 +665,7 @@
                             <p class="text-xs text-green-400 text-center mt-auto">Status : Open</p>
                         </div>
                         <div
-                            class="flex flex-col gap-4 bg-zinc-800 bg-opacity-90 bg-gradient-to-b from-[#2e2e2e] to-black rounded-xl p-5 w-96 sm:w-72 shadow-lg border-2 border-[#e7a77c] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
+                            class="flex flex-col gap-4 bg-zinc-800 bg-opacity-90 bg-gradient-to-b from-[#2e2e2e] to-black/70 rounded-xl p-5 w-96 sm:w-72 shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
                             <div
                                 class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                             </div>
@@ -656,7 +676,7 @@
                             <p class="text-xs text-green-400 text-center mt-auto">Status : Open</p>
                         </div>
                         <div
-                            class="flex flex-col gap-4 bg-zinc-800 bg-opacity-90 bg-gradient-to-b from-[#2e2e2e] to-black rounded-xl p-5 w-96 sm:w-72 shadow-lg border-2 border-[#e7a77c] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
+                            class="flex flex-col gap-4 bg-zinc-800 bg-opacity-90 bg-gradient-to-b from-[#2e2e2e] to-black/70 rounded-xl p-5 w-96 sm:w-72 shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
                             <div
                                 class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                             </div>
@@ -667,7 +687,7 @@
                             <p class="text-xs text-green-400 text-center mt-auto">Status : Open</p>
                         </div>
                         <div
-                            class="flex flex-col gap-4 bg-zinc-800 bg-opacity-90 bg-gradient-to-b from-[#2e2e2e] to-black rounded-xl p-5 w-96 sm:w-72 shadow-lg border-2 border-[#e7a77c] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
+                            class="flex flex-col gap-4 bg-zinc-800 bg-opacity-90 bg-gradient-to-b from-[#2e2e2e] to-black/70 rounded-xl p-5 w-96 sm:w-72 shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
                             <div
                                 class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                             </div>
@@ -678,7 +698,7 @@
                             <p class="text-xs text-green-400 text-center mt-auto">Status : Open</p>
                         </div>
                         <div
-                            class="flex flex-col gap-4 bg-zinc-800 bg-opacity-90 bg-gradient-to-b from-[#2e2e2e] to-black rounded-xl p-5 w-96 sm:w-72 shadow-lg border-2 border-[#e7a77c] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
+                            class="flex flex-col gap-4 bg-zinc-800 bg-opacity-90 bg-gradient-to-b from-[#2e2e2e] to-black/70 rounded-xl p-5 w-96 sm:w-72 shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
                             <div
                                 class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                             </div>
@@ -688,7 +708,7 @@
                             <p class="text-xs text-red-500 text-center mt-auto">Status : Close</p>
                         </div>
                         <div
-                            class="flex flex-col gap-4 bg-zinc-800 bg-opacity-90 bg-gradient-to-b from-[#2e2e2e] to-black rounded-xl p-5 w-96 sm:w-72 shadow-lg border-2 border-[#e7a77c] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
+                            class="flex flex-col gap-4 bg-zinc-800 bg-opacity-90 bg-gradient-to-b from-[#2e2e2e] to-black/70 rounded-xl p-5 w-96 sm:w-72 shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
                             <div
                                 class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                             </div>

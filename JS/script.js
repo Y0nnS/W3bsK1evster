@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 category.members.forEach(member => {
                     categoryHTML += `
-                        <div class="relative flex flex-col items-center bg-gradient-to-b from-[#2e2e2e] to-black p-6 rounded-2xl max-w-xs w-full sm:w-48 shadow-lg 
+                        <div class="relative flex flex-col items-center bg-gradient-to-b from-[#2e2e2e] to-black/70 p-6 rounded-2xl max-w-xs w-full sm:w-48 shadow-lg 
                             border border-[#d49163]/50 transition-all duration-500 transform group 
                             hover:scale-105 hover:shadow-2xl hover:rotate-1 cursor-pointer" data-aos="fade-up">
                             
@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         const leaderboardData = await response.json();
 
         leaderboardList.innerHTML = leaderboardData.map(player => `
-            <div class="flex items-center gap-4 bg-zinc-800 bg-gradient-to-b from-[#2e2e2e] to-black bg-opacity-90 rounded-xl p-5 w-64 sm:w-72 shadow-lg border-[1px] border-[#e7a77c] transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer ">
+            <div class="flex items-center gap-4 bg-zinc-800 bg-gradient-to-b from-[#2e2e2e] to-black/70 bg-opacity-90 rounded-xl p-5 w-64 sm:w-72 shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer ">
                 <div
                     class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                 </div>
@@ -165,4 +165,28 @@ document.addEventListener("DOMContentLoaded", function () {
 const logo = document.getElementById("logo");
 logo.addEventListener("click", () => {
     location.reload();
+});
+
+// ROLE
+
+document.addEventListener("DOMContentLoaded", async () => {
+    const rolesContainer = document.getElementById("roledisplay");
+
+    try {
+        const response = await fetch("../database/role.json");
+        const roles = await response.json();
+
+        rolesContainer.innerHTML = roles.map(role => `
+            <div class="role-card bg-zinc-800 bg-opacity-90 bg-gradient-to-b from-[#2e2e2e] to-black/70 p-4 rounded-lg shadow-lg w-full sm:w-80 flex flex-col shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
+                <div
+                    class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
+                </div>
+                <h2 class="text-xl font-semibold">${role.icon} ${role.name}</h2>
+                <p class="mb-10 font-light">${role.description}</p>
+                <span class="badge bg-[#d49163] text-white py-1 px-3 rounded-md mt-auto">${role.tag}</span>
+            </div>
+        `).join("");
+    } catch (error) {
+        console.error("Error fetching roles: ", error);
+    }
 });
