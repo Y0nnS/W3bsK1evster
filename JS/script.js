@@ -46,9 +46,9 @@ document.addEventListener("DOMContentLoaded", function () {
             data.forEach(donation => {
                 const row = `
                     <tr class="border-b border-gray-700">
-                        <td class="py-2 px-4">${donation.nama}</td>
-                        <td class="py-2 px-4">${donation.note}</td>
-                        <td class="py-2 px-4 text-[#e7a77c]">${donation.jumlah}</td>
+                        <td class="py-2 text-[10px] px-4">${donation.nama}</td>
+                        <td class="py-2 text-[10px] px-4">${donation.note}</td>
+                        <td class="py-2 text-[10px] px-4 text-[#e7a77c]">${donation.jumlah}</td>
                     </tr>
                 `;
                 tableBody.innerHTML += row;
@@ -69,10 +69,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 let categoryHTML = `
                     <div>
                         <div class="text-center my-10" data-aos="fade-up">
-                            <h1 class="text-xl sm:text-2xl md:text-3xl font-bold">
+                            <h1 class="text-sm sm:text-2xl md:text-3xl font-bold">
                                 <span class="text-[#d49163]">${category.category}</span>
                             </h1>
-                            <p class="text-sm text-gray-300">${category.description}</p>
+                            <p class="text-[12px] sm:text-sm text-gray-300">${category.description}</p>
                         </div>
                     <div class="flex flex-wrap justify-center gap-12">`;
 
@@ -91,10 +91,10 @@ document.addEventListener("DOMContentLoaded", function () {
                                 transition-all duration-500 group-hover:rotate-6 group-hover:scale-110">
                             
                             <!-- Nama -->
-                            <p class="text-sm sm:text-base font-semibold text-white transition-all duration-500 group-hover:scale-110 group-hover:text-[#d49163]">${member.name}</p>
+                            <p class="text-[12px] sm:text-base font-semibold text-white transition-all duration-500 group-hover:scale-110 group-hover:text-[#d49163]">${member.name}</p>
                             
                             <!-- Role -->
-                            <p class="text-xs sm:text-sm font-light text-gray-400 transition-all duration-500 group-hover:scale-105 group-hover:text-white">${member.role}</p>
+                            <p class="text-[10px] sm:text-sm font-light text-gray-400 transition-all duration-500 group-hover:scale-105 group-hover:text-white">${member.role}</p>
                         </div>
                     `;
                 });
@@ -167,8 +167,7 @@ logo.addEventListener("click", () => {
     location.reload();
 });
 
-// ROLE
-
+// ROLES
 document.addEventListener("DOMContentLoaded", async () => {
     const rolesContainer = document.getElementById("roledisplay");
 
@@ -181,9 +180,9 @@ document.addEventListener("DOMContentLoaded", async () => {
                 <div
                     class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                 </div>
-                <h2 class="text-xl font-semibold">${role.icon} ${role.name}</h2>
-                <p class="mb-10 font-light">${role.description}</p>
-                <span class="badge bg-[#d49163] text-white py-1 px-3 rounded-md mt-auto">${role.tag}</span>
+                <h2 class="text-[12px] sm:text-sm font-semibold">${role.icon} ${role.name}</h2>
+                <p class="text-[10px] sm:text-base mb-10 font-light">${role.description}</p>
+                <span class="badge bg-[#d49163] text-white text-[12px] py-1 px-3 rounded-md mt-auto">${role.tag}</span>
             </div>
         `).join("");
     } catch (error) {

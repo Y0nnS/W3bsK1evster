@@ -1,7 +1,7 @@
 {
   "staff": [
     {
-      "category": "Community Manager",
+      "category": "Community Manager (ADMIN)",
       "description": "List Admin Server",
       "members": [
         {
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "category": "Team Management",
+      "category": "Team Management (STAFF)",
       "description": "List Staff Server",
       "members": [
         {
