@@ -11,12 +11,12 @@
         },
         {
           "name": "Phy0n",
-          "role": "Website Developer",
+          "role": ["Web Developer", "Manager", "Partner Manager", "Human Resource"],
           "image": "../assets/img/staff/phion.png"
         },
         {
           "name": "Luhut",
-          "role": "Bot Developer",
+          "role": ["Bot Developer", "Human Resource"],
           "image": "../assets/img/staff/luhut.png"
         }
       ]
@@ -27,7 +27,7 @@
       "members": [
         {
           "name": "Phy0n",
-          "role": "Website Developer",
+          "role": ["Web Developer", "Manager", "Partner Manager", "Human Resource"],
           "image": "../assets/img/staff/phion.png"
         }
       ]
@@ -38,7 +38,7 @@
       "members": [
         {
           "name": "Lenn",
-          "role": "Partner Manager",
+          "role": ["Partner Manager", "Human Resource"],
           "image": "../assets/img/staff/lenn.png"
         },
         {
