@@ -46,9 +46,9 @@ document.addEventListener("DOMContentLoaded", function () {
             data.forEach(donation => {
                 const row = `
                     <tr class="border-b border-gray-700">
-                        <td class="py-2 text-[10px] px-4">${donation.nama}</td>
-                        <td class="py-2 text-[10px] px-4">${donation.note}</td>
-                        <td class="py-2 text-[10px] px-4 text-[#e7a77c]">${donation.jumlah}</td>
+                        <td class="py-2 sm:text-sm text-[10px] px-4">${donation.nama}</td>
+                        <td class="py-2 sm:text-sm text-[10px] px-4">${donation.note}</td>
+                        <td class="py-2 sm:text-sm text-[10px] px-4 text-[#e7a77c]">${donation.jumlah}</td>
                     </tr>
                 `;
                 tableBody.innerHTML += row;
@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             <p class="text-[12px] sm:text-base font-semibold text-white transition-all duration-500 group-hover:scale-110 group-hover:text-[#d49163]">${member.name}</p>
                             
                             <!-- Role -->
-                            <p class="text-[10px] sm:text-sm font-light text-gray-400 transition-all duration-500 group-hover:scale-105 group-hover:text-white">${member.role}</p>
+                            <p class="text-[10px] sm:text-sm font-normal text-gray-400 transition-all duration-500 group-hover:scale-105 group-hover:text-white">${member.role}</p>
                         </div>
                     `;
                 });
@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         const leaderboardData = await response.json();
 
         leaderboardList.innerHTML = leaderboardData.map(player => `
-            <div class="flex items-center gap-4 bg-zinc-800 bg-gradient-to-b from-[#2e2e2e] to-black/70 bg-opacity-90 rounded-xl p-1 sm:p-4 w-64 sm:w-72 shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer ">
+            <div class="flex items-center gap-4 bg-zinc-800 bg-gradient-to-b from-[#2e2e2e] to-black/70 bg-opacity-90 rounded-xl p-2 sm:p-4 w-64 sm:w-72 shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer ">
                 <div
                     class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                 </div>
@@ -180,8 +180,8 @@ document.addEventListener("DOMContentLoaded", async () => {
                 <div
                     class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                 </div>
-                <h2 class="text-[12px] sm:text-sm font-semibold">${role.icon} ${role.name}</h2>
-                <p class="text-[10px] sm:text-base mb-10 font-light">${role.description}</p>
+                <h2 class="text-[12px] sm:text-lg font-semibold">${role.icon} ${role.name}</h2>
+                <p class="text-[10px] sm:text-sm mb-10 font-normal text-gray-400">${role.description}</p>
                 <span class="badge bg-[#d49163] text-white text-[12px] py-1 px-3 rounded-md mt-auto">${role.tag}</span>
             </div>
         `).join("");
