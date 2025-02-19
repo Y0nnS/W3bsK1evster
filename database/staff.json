@@ -79,7 +79,7 @@
         },
         {
           "name": "Zall",
-          "role": "Event Organizer",
+          "role": ["Event Organizer", "Designer"],
           "image": "../assets/img/staff/nopal.png"
         },
         {
