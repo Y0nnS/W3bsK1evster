@@ -116,15 +116,15 @@ document.addEventListener("DOMContentLoaded", async function () {
         const leaderboardData = await response.json();
 
         leaderboardList.innerHTML = leaderboardData.map(player => `
-            <div class="flex items-center gap-4 bg-zinc-800 bg-gradient-to-b from-[#2e2e2e] to-black/70 bg-opacity-90 rounded-xl p-5 w-64 sm:w-72 shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer ">
+            <div class="flex items-center gap-4 bg-zinc-800 bg-gradient-to-b from-[#2e2e2e] to-black/70 bg-opacity-90 rounded-xl p-1 sm:p-4 w-64 sm:w-72 shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer ">
                 <div
                     class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                 </div>
-                <div class="w-12 h-12 sm:w-14 sm:h-14">
+                <div class="w-8 h-8 sm:w-14 sm:h-14">
                     <img src="${player.image}" alt="${player.season}" class="w-full h-full object-cover rounded-full border-0 border-gray-500">
                 </div>
                 <div>
-                    <p class="text-sm sm:text-base font-semibold text-white">${player.rank} ${player.season} | ${player.name}</p>
+                    <p class="text-[10px] sm:text-base font-light sm:font-semibold text-white">${player.rank} ${player.season} | ${player.name}</p>
                 </div>
             </div>
         `).join("");
