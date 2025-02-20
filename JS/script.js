@@ -77,13 +77,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="flex flex-wrap justify-center gap-12">`;
 
                 category.members.forEach(member => {
-                    let rolesHTML = "";
-
-                    if (Array.isArray(member.role)) {
-                        rolesHTML = member.role.map(role => `<p class="p-2 bg-[#d49163] rounded-md mt-2">${role}</p>`).join("");
-                    } else {
-                        rolesHTML = `<p class="p-2 bg-[#d49163] rounded-md mt-2">${member.role}</p>`;
-                    }
+                    let rolesHTML = Array.isArray(member.role)
+                        ? member.role.map(role => `<p class="p-2 bg-[#d49163] rounded-md mt-2 w-full">${role}</p>`).join("")
+                        : `<p class="p-2 bg-[#d49163] rounded-md mt-2 w-full">${member.role}</p>`;
 
                     categoryHTML += `
                         <div class="relative flex flex-col items-center bg-gradient-to-b from-[#2e2e2e] to-black/70 p-6 rounded-2xl max-w-xs w-full sm:w-48 shadow-lg 
@@ -96,9 +92,15 @@ document.addEventListener("DOMContentLoaded", function () {
                                 class="w-16 h-16 sm:w-20 sm:h-20 rounded-full mb-3 border-2 border-[#d49163] shadow-md 
                                 transition-all duration-500 group-hover:rotate-6 group-hover:scale-110">
                             
-                            <p class="text-[12px] sm:text-base font-semibold text-white transition-all duration-500 group-hover:scale-110 group-hover:text-[#d49163]">${member.name}</p>
+                            <p class="text-[12px] sm:text-base font-semibold text-white transition-all duration-500 group-hover:scale-110 group-hover:text-[#d49163]">
+                                ${member.name}
+                            </p>
+
+                            <p class="text-[10px] sm:text-sm text-gray-300 italic transition-all duration-500 group-hover:scale-105">
+                                ${member.description}
+                            </p>
                             
-                            <div class="text-center text-[10px] sm:text-sm font-normal text-white transition-all duration-500 group-hover:scale-105 group-hover:text-white">
+                            <div class="text-center text-[10px] sm:text-sm font-normal text-white mt-5 transition-all duration-500 group-hover:scale-105 group-hover:text-white">
                                 ${rolesHTML} 
                             </div>
                         </div>
@@ -111,6 +113,7 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(error => console.error("Error fetching staff data:", error));
 });
+
 
 // LEADERBAORD DATABASE
 document.addEventListener("DOMContentLoaded", async function () {
