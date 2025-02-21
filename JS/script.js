@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
     }
 
-    fetch("../../public/database/donations.json")
+    fetch("../database/donations.json")
         .then(response => response.json())
         .then(data => {
             tableBody.innerHTML = "";
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // STAFF DATABASE
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("../../public/database/staff.json")
+    fetch("../database/staff.json")
         .then(response => response.json())
         .then(data => {
             const staffContainer = document.getElementById("staff");
@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     const leaderboardList = document.getElementById("leaderboard-list");
 
     try {
-        const response = await fetch("../../public/database/leaderboard.json");
+        const response = await fetch("../database/leaderboard.json");
         const leaderboardData = await response.json();
 
         leaderboardList.innerHTML = leaderboardData.map(player => `
@@ -180,7 +180,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const rolesContainer = document.getElementById("roledisplay");
 
     try {
-        const response = await fetch("../../public/database/role.json");
+        const response = await fetch("../database/role.json");
         const roles = await response.json();
 
         rolesContainer.innerHTML = roles.map(role => `
