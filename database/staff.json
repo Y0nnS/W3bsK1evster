@@ -8,19 +8,19 @@
           "name": "Tame",
           "description": "Admin Server",
           "role": "Moderator Chat",
-          "image": "../assets/img/staff/tame.png"
+          "image": "../../public/assets/img/staff/tame.png"
         },
         {
           "name": "Phy0n",
           "description": "Admin Server",
           "role": ["Web Developer", "Manager", "Partner Manager", "Human Resource"],
-          "image": "../assets/img/staff/phion.png"
+          "image": "../../public/assets/img/staff/phion.png"
         },
         {
           "name": "Luhut",
           "description": "Admin Server",
           "role": ["Bot Developer", "Human Resource"],
-          "image": "../assets/img/staff/luhut.png"
+          "image": "../../public/assets/img/staff/luhut.png"
         }
       ]
     },
@@ -32,7 +32,7 @@
           "name": "Phy0n",
           "description": "Head Manager",
           "role": ["Web Developer", "Manager", "Partner Manager", "Human Resource"],
-          "image": "../assets/img/staff/phion.png"
+          "image": "../../public/assets/img/staff/phion.png"
         }
       ]
     },
@@ -44,13 +44,13 @@
           "name": "Lenn",
           "description": "Head Partner Manager",
           "role": ["Partner Manager", "Human Resource"],
-          "image": "../assets/img/staff/lenn.png"
+          "image": "../../public/assets/img/staff/lenn.png"
         },
         {
           "name": "Vexzy",
           "description": "Head Designer",
           "role": "Designer",
-          "image": "../assets/img/staff/vexzy.png"
+          "image": "../../public/assets/img/staff/vexzy.png"
         }
       ]
     },
@@ -62,25 +62,25 @@
           "name": "Crystal",
           "description": "Staff Server",
           "role": "Partner Manager",
-          "image": "../assets/img/staff/crystal.png"
+          "image": "../../public/assets/img/staff/crystal.png"
         },
         {
           "name": "Yura",
           "description": "Staff Server",
           "role": "Designer",
-          "image": "../assets/img/staff/yura.png"
+          "image": "../../public/assets/img/staff/yura.png"
         },
         {
           "name": "Ivy",
           "description": "Staff Server",
           "role": "Designer",
-          "image": "../assets/img/staff/ivy.png"
+          "image": "../../public/assets/img/staff/ivy.png"
         },
         {
           "name": "Erza",
           "description": "Staff Server",
           "role": "Moderator",
-          "image": "../assets/img/staff/erza.png"
+          "image": "../../public/assets/img/staff/erza.png"
         }
       ]
     },
@@ -92,37 +92,37 @@
           "name": "Cilla",
           "description": "Trainee Server",
           "role": "Event Organizer",
-          "image": "../assets/img/staff/cilla.png"
+          "image": "../../public/assets/img/staff/cilla.png"
         },
         {
           "name": "Zall",
           "description": "Trainee Server",
           "role": ["Event Organizer", "Designer"],
-          "image": "../assets/img/staff/nopal.png"
+          "image": "../../public/assets/img/staff/nopal.png"
         },
         {
           "name": "Vendrika",
           "description": "Trainee Server",
           "role": "Event Organizer",
-          "image": "../assets/img/staff/vendrika.png"
+          "image": "../../public/assets/img/staff/vendrika.png"
         },
         {
           "name": "Eyl",
           "description": "Trainee Server",
           "role": "Host",
-          "image": "../assets/img/staff/eyl.png"
+          "image": "../../public/assets/img/staff/eyl.png"
         },
         {
           "name": "Lumine",
           "description": "Trainee Server",
           "role": "Host",
-          "image": "../assets/img/staff/lumine.png"
+          "image": "../../public/assets/img/staff/lumine.png"
         },
         {
           "name": "Grizzly",
           "description": "Trainee Server",
           "role": "Host",
-          "image": "../assets/img/staff/grizzly.png"
+          "image": "../../public/assets/img/staff/grizzly.png"
         }
       ]
     }
