@@ -7,19 +7,19 @@
         {
           "name": "Tame",
           "description": "Admin Server",
-          "role": "Moderator Chat",
+          "role": ["Community Manager","Moderator Chat"],
           "image": "../assets/img/staff/tame.png"
         },
         {
           "name": "Phy0n",
           "description": "Admin Server",
-          "role": ["Web Developer", "Manager", "Partner Manager", "Human Resource"],
+          "role": ["Community Manager","Web Developer", "Division Manager", "Partner Manager", "Human Resource"],
           "image": "../assets/img/staff/phion.png"
         },
         {
           "name": "Luhut",
           "description": "Admin Server",
-          "role": ["Bot Developer", "Human Resource"],
+          "role": ["Community Manager","Bot Developer", "Human Resource"],
           "image": "../assets/img/staff/luhut.png"
         }
       ]
@@ -31,7 +31,7 @@
         {
           "name": "Phy0n",
           "description": "Head Manager",
-          "role": ["Web Developer", "Manager", "Partner Manager", "Human Resource"],
+          "role": ["Community Manager","Web Developer", "Division Manager", "Partner Manager", "Human Resource"],
           "image": "../assets/img/staff/phion.png"
         }
       ]
@@ -43,13 +43,13 @@
         {
           "name": "Lenn",
           "description": "Head Partner Manager",
-          "role": ["Partner Manager", "Human Resource"],
+          "role": ["Head Division","Partner Manager", "Human Resource"],
           "image": "../assets/img/staff/lenn.png"
         },
         {
           "name": "Vexzy",
           "description": "Head Designer",
-          "role": "Designer",
+          "role": ["Head Division","Designer"],
           "image": "../assets/img/staff/vexzy.png"
         }
       ]
