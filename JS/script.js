@@ -189,8 +189,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                     class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
                 </div>
                 <h2 class="text-[12px] sm:text-lg font-semibold">${role.icon} ${role.name}</h2>
-                <p class="text-[10px] sm:text-sm mb-10 font-normal text-gray-400">${role.description}</p>
-                <span class="badge bg-[#d49163] text-white text-[12px] py-1 px-3 rounded-md mt-auto">${role.tag}</span>
+                <p class="text-[10px] sm:text-sm font-normal text-gray-400">${role.description}</p>
             </div>
         `).join("");
     } catch (error) {

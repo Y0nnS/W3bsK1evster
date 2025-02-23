@@ -10,5 +10,77 @@
         "name": "Top Monthly Voice",
         "description": "Given to members who frequently join and contribute in voice channels.",
         "tag": "Top #1 Voice"
+    },
+    {
+        "icon": "🤖",
+        "name": "Official Chatbot",
+        "description": "specifically for Official Chat Bots. This role is assigned to bots that assist with server interactions.",
+        "tag": "Top #1 Voice"
+    },
+    {
+        "icon": "🌟",
+        "name": "Community Manager",
+        "description": "specifically for admins. Also considered the highest position among server staff.",
+        "tag": "Top #1 Voice"
+    },
+    {
+        "icon": "🌟",
+        "name": "Division Manager",
+        "description": "specifically for Division Managers. Also considered the second-highest position among server staff.",
+        "tag": "Top #1 Voice"
+    },
+    {
+        "icon": "🌟",
+        "name": "Head Division",
+        "description": "specifically for Head Division. Also considered the third-highest position among server staff.",
+        "tag": "Top #1 Voice"
+    },
+    {
+        "icon": "⭐",
+        "name": "Team Management",
+        "description": "specifically for Team Management. This role includes all staff members from any division.",
+        "tag": "Top #1 Voice"
+    },
+    {
+        "icon": "⭐",
+        "name": "Trainee",
+        "description": "specifically for Trainees. This role is for new staff members who are still in training.",
+        "tag": "Top #1 Voice"
+    },
+    {
+        "icon": "💷",
+        "name": "Contributor",
+        "description": "given to those who have donated at least 50k to the server. All members can have it.",
+        "tag": "Top #1 Voice"
+    },
+    {
+        "icon": "💶",
+        "name": "Donator",
+        "description": "given to those who have donated at least 10k to the server. All members can have it.",
+        "tag": "Top #1 Voice"
+    },
+    {
+        "icon": "💵",
+        "name": "Booster",
+        "description": "given to those who boost the server with Nitro.",
+        "tag": "Top #1 Voice"
+    },
+    {
+        "icon": "💴",
+        "name": "Benefactor",
+        "description": "given to those who donate to the server in the form of owo currency/owocash.",
+        "tag": "Top #1 Voice"
+    },
+    {
+        "icon": "💎",
+        "name": "Supporter",
+        "description": "given to those who place the server link in their Discord bio.",
+        "tag": "Top #1 Voice"
+    },
+    {
+        "icon": "❤️",
+        "name": "Special",
+        "description": "given to those considered special by the server admins, usually their friends.",
+        "tag": "Top #1 Voice"
     }
 ]

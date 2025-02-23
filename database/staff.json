@@ -29,15 +29,9 @@
       "description": "List Manager Division",
       "members": [
         {
-          "name": "Phy0n",
-          "description": "Head Manager",
-          "role": ["Community Manager","Web Developer", "Division Manager", "Partner Manager", "Human Resource"],
-          "image": "../assets/img/staff/phion.png"
-        },
-        {
           "name": "Lenn",
           "description": "Head Partner Manager",
-          "role": ["Head Division","Partner Manager", "Human Resource"],
+          "role": ["Division Manager","Head Division","Partner Manager", "Human Resource"],
           "image": "../assets/img/staff/lenn.png"
         }
       ]
