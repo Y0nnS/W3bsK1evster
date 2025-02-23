@@ -33,6 +33,12 @@
           "description": "Head Manager",
           "role": ["Community Manager","Web Developer", "Division Manager", "Partner Manager", "Human Resource"],
           "image": "../assets/img/staff/phion.png"
+        },
+        {
+          "name": "Lenn",
+          "description": "Head Partner Manager",
+          "role": ["Head Division","Partner Manager", "Human Resource"],
+          "image": "../assets/img/staff/lenn.png"
         }
       ]
     },
@@ -40,12 +46,6 @@
       "category": "Head Division",
       "description": "List Head Division",
       "members": [
-        {
-          "name": "Lenn",
-          "description": "Head Partner Manager",
-          "role": ["Head Division","Partner Manager", "Human Resource"],
-          "image": "../assets/img/staff/lenn.png"
-        },
         {
           "name": "Vexzy",
           "description": "Head Designer",
