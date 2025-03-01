@@ -142,6 +142,34 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
 });
 
+// LEADERBOARD DATABASE (VOICE)
+document.addEventListener("DOMContentLoaded", async function () {
+    const leaderboardVoiceList = document.getElementById("leaderboard-voice");
+
+    try {
+        const response = await fetch("../database/leaderboard-voice.json");
+        const leaderboardData = await response.json();
+
+        leaderboardVoiceList.innerHTML = leaderboardData.map(player => `
+            <div class="flex items-center gap-4 bg-zinc-800 bg-gradient-to-b from-[#2e2e2e] to-black/70 bg-opacity-90 rounded-xl p-2 sm:p-4 w-64 sm:w-auto shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer relative">
+                <div class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none"></div>
+                <div class="w-8 h-8 sm:w-14 sm:h-14 flex-shrink-0">
+                    <img src="${player.image}" alt="${player.season}" class="w-full h-full object-cover rounded-full border border-gray-500">
+                </div>
+                <div class="flex-1 min-w-0">
+                    <p class="text-[10px] sm:text-base font-light sm:font-semibold text-white whitespace-nowrap truncate">
+                        ${player.rank} ${player.season} | ${player.name}
+                    </p>
+                </div>
+            </div>
+        `).join("");
+
+    } catch (error) {
+        console.error("Gagal mengambil data leaderboard voice:", error);
+    }
+});
+
+
 // CHANGE IMAGE
 document.addEventListener("DOMContentLoaded", function () {
     const images = [
@@ -184,10 +212,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         const roles = await response.json();
 
         rolesContainer.innerHTML = roles.map(role => `
-            <div class="role-card bg-zinc-800 bg-opacity-90 bg-gradient-to-b from-[#2e2e2e] to-black/70 p-4 rounded-lg shadow-lg w-full sm:w-80 flex flex-col shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
-                <div
-                    class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none">
-                </div>
+            <div class="role-card bg-zinc-800 bg-opacity-90 bg-gradient-to-b from-[#2e2e2e] to-black/70 p-4 rounded-lg shadow-lg w-full sm:w-80 flex flex-col transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-[#ffcc99] group cursor-pointer">
+                <div class="absolute inset-0 rounded-xl bg-[#e7a77c]/20 blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500 pointer-events-none"></div>
                 <h2 class="text-[12px] sm:text-lg font-semibold">${role.icon} ${role.name}</h2>
                 <p class="text-[10px] sm:text-sm font-normal text-gray-400">${role.description}</p>
             </div>
@@ -196,3 +222,4 @@ document.addEventListener("DOMContentLoaded", async () => {
         console.error("Error fetching roles: ", error);
     }
 });
+
