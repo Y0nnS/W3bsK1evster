@@ -117,6 +117,30 @@
           "description": "Trainee Server",
           "role": "Host",
           "image": "../assets/img/staff/grizzly.png"
+        },
+        {
+          "name": "Nana",
+          "description": "Trainee Server",
+          "role": "Host",
+          "image": "../assets/img/staff/nana.png"
+        },
+        {
+          "name": "Narest",
+          "description": "Trainee Server",
+          "role": "Host",
+          "image": "../assets/img/staff/narest.png"
+        },
+        {
+          "name": "Nemui",
+          "description": "Trainee Server",
+          "role": "Event Organizer",
+          "image": "../assets/img/staff/nemui.png"
+        },
+        {
+          "name": "Agis",
+          "description": "Trainee Server",
+          "role": "Mod Chat",
+          "image": "../assets/img/staff/agis.png"
         }
       ]
     }
