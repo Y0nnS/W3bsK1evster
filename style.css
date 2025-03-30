@@ -604,6 +604,10 @@ video {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .inset-0 {
   inset: 0px;
 }
@@ -744,6 +748,14 @@ video {
   height: 100vh;
 }
 
+.max-h-60 {
+  max-height: 15rem;
+}
+
+.max-h-72 {
+  max-height: 18rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -752,8 +764,12 @@ video {
   width: 4rem;
 }
 
-.w-32 {
-  width: 8rem;
+.w-24 {
+  width: 6rem;
+}
+
+.w-36 {
+  width: 9rem;
 }
 
 .w-52 {
@@ -784,24 +800,12 @@ video {
   width: 100%;
 }
 
-.w-20 {
-  width: 5rem;
-}
-
-.w-24 {
-  width: 6rem;
-}
-
-.w-36 {
-  width: 9rem;
-}
-
-.w-28 {
-  width: 7rem;
-}
-
 .min-w-0 {
   min-width: 0px;
+}
+
+.min-w-full {
+  min-width: 100%;
 }
 
 .max-w-2xl {
@@ -840,6 +844,14 @@ video {
   cursor: pointer;
 }
 
+.snap-x {
+  scroll-snap-type: x var(--tw-scroll-snap-strictness);
+}
+
+.snap-start {
+  scroll-snap-align: start;
+}
+
 .list-inside {
   list-style-position: inside;
 }
@@ -852,12 +864,20 @@ video {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
 }
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.place-items-center {
+  place-items: center;
 }
 
 .items-center {
@@ -920,6 +940,10 @@ video {
 
 .overflow-x-auto {
   overflow-x: auto;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
 }
 
 .scroll-smooth {
@@ -1535,6 +1559,10 @@ video {
     width: 12rem;
   }
 
+  .sm\:w-52 {
+    width: 13rem;
+  }
+
   .sm\:w-72 {
     width: 18rem;
   }
@@ -1547,20 +1575,16 @@ video {
     width: auto;
   }
 
-  .sm\:w-40 {
-    width: 10rem;
-  }
-
-  .sm\:w-52 {
-    width: 13rem;
-  }
-
   .sm\:max-w-\[60vw\] {
     max-width: 60vw;
   }
 
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .sm\:p-4 {
@@ -1653,6 +1677,10 @@ video {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1689,6 +1717,14 @@ video {
 
   .lg\:w-3\/5 {
     width: 60%;
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
   .lg\:text-2xl {

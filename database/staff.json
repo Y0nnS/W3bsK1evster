@@ -75,6 +75,36 @@
           "description": "Staff Server",
           "role": "Moderator",
           "image": "../assets/img/staff/erza.png"
+        },
+        {
+          "name": "Cilla",
+          "description": "Staff Server",
+          "role": "Event Organizer",
+          "image": "../assets/img/staff/cilla.png"
+        },
+        {
+          "name": "Zall",
+          "description": "Staff Server",
+          "role": ["Event Organizer", "Designer"],
+          "image": "../assets/img/staff/nopal.png"
+        },
+        {
+          "name": "Eyl",
+          "description": "Staff Server",
+          "role": "Host",
+          "image": "../assets/img/staff/eyl.png"
+        },
+        {
+          "name": "Lumine",
+          "description": "Staff Server",
+          "role": "Host",
+          "image": "../assets/img/staff/lumine.png"
+        },
+        {
+          "name": "Grizzly",
+          "description": "Staff Server",
+          "role": "Host",
+          "image": "../assets/img/staff/grizzly.png"
         }
       ]
     },
@@ -82,42 +112,6 @@
       "category": "Trainee",
       "description": "List Trainee Server",
       "members": [
-        {
-          "name": "Cilla",
-          "description": "Trainee Server",
-          "role": "Event Organizer",
-          "image": "../assets/img/staff/cilla.png"
-        },
-        {
-          "name": "Zall",
-          "description": "Trainee Server",
-          "role": ["Event Organizer", "Designer"],
-          "image": "../assets/img/staff/nopal.png"
-        },
-        {
-          "name": "Vendrika",
-          "description": "Trainee Server",
-          "role": "Event Organizer",
-          "image": "../assets/img/staff/vendrika.png"
-        },
-        {
-          "name": "Eyl",
-          "description": "Trainee Server",
-          "role": "Host",
-          "image": "../assets/img/staff/eyl.png"
-        },
-        {
-          "name": "Lumine",
-          "description": "Trainee Server",
-          "role": "Host",
-          "image": "../assets/img/staff/lumine.png"
-        },
-        {
-          "name": "Grizzly",
-          "description": "Trainee Server",
-          "role": "Host",
-          "image": "../assets/img/staff/grizzly.png"
-        },
         {
           "name": "Nana",
           "description": "Trainee Server",

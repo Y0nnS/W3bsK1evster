@@ -512,18 +512,21 @@
                         <h2 class="text-sm sm:text-xl font-semibold text-[#d49163] text-center mb-4">📝 Donation Log
                         </h2>
                         <div class="overflow-x-auto">
-                            <table class="w-full text-left border-collapse">
-                                <thead>
-                                    <tr class="border-b border-gray-700">
-                                        <th class="py-2 text-[12px] px-4 text-white">Nama</th>
-                                        <th class="py-2 text-[12px] px-4 text-white">Note</th>
-                                        <th class="py-2 text-[12px] px-4 text-white">Jumlah</th>
-                                    </tr>
-                                </thead>
-                                <tbody id="donationTable" class="text-gray-300"></tbody>
-                            </table>
+                            <div class="max-h-72 overflow-y-auto">
+                                <table class="w-full text-left border-collapse">
+                                    <thead class="bg-zinc-900 sticky top-0 z-10">
+                                        <tr class="border-b border-gray-700">
+                                            <th class="py-2 text-[12px] px-4 text-white">Nama</th>
+                                            <th class="py-2 text-[12px] px-4 text-white">Note</th>
+                                            <th class="py-2 text-[12px] px-4 text-white">Jumlah</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="donationTable" class="text-gray-300"></tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
