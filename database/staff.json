@@ -105,6 +105,12 @@
           "description": "Staff Server",
           "role": "Host",
           "image": "../assets/img/staff/grizzly.png"
+        },
+        {
+          "name": "Agis",
+          "description": "Trainee Server",
+          "role": "Mod Chat",
+          "image": "../assets/img/staff/agis.png"
         }
       ]
     },
@@ -129,12 +135,6 @@
           "description": "Trainee Server",
           "role": "Event Organizer",
           "image": "../assets/img/staff/nemui.png"
-        },
-        {
-          "name": "Agis",
-          "description": "Trainee Server",
-          "role": "Mod Chat",
-          "image": "../assets/img/staff/agis.png"
         }
       ]
     }
