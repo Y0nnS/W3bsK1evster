@@ -53,12 +53,6 @@
       "description": "List Staff Server",
       "members": [
         {
-          "name": "Crystal",
-          "description": "Staff Server",
-          "role": "Partner Manager",
-          "image": "../assets/img/staff/crystal.png"
-        },
-        {
           "name": "Yura",
           "description": "Staff Server",
           "role": "Designer",
@@ -77,6 +71,12 @@
           "image": "../assets/img/staff/erza.png"
         },
         {
+          "name": "Agis",
+          "description": "Staff Server",
+          "role": "Moderator",
+          "image": "../assets/img/staff/agis.png"
+        },
+        {
           "name": "Cilla",
           "description": "Staff Server",
           "role": "Event Organizer",
@@ -85,13 +85,13 @@
         {
           "name": "Zall",
           "description": "Staff Server",
-          "role": ["Event Organizer", "Designer"],
+          "role": ["Event Organizer"],
           "image": "../assets/img/staff/nopal.png"
         },
         {
           "name": "Eyl",
           "description": "Staff Server",
-          "role": "Host",
+          "role": "Event Organizer",
           "image": "../assets/img/staff/eyl.png"
         },
         {
@@ -105,12 +105,6 @@
           "description": "Staff Server",
           "role": "Host",
           "image": "../assets/img/staff/grizzly.png"
-        },
-        {
-          "name": "Agis",
-          "description": "Staff Server",
-          "role": "Mod Chat",
-          "image": "../assets/img/staff/agis.png"
         }
       ]
     },
@@ -135,6 +129,24 @@
           "description": "Trainee Server",
           "role": "Event Organizer",
           "image": "../assets/img/staff/nemui.png"
+        },
+        {
+          "name": "Sera",
+          "description": "Trainee Server",
+          "role": "Designer",
+          "image": "../assets/img/staff/sera.png"
+        },
+        {
+          "name": "MoonSenna",
+          "description": "Trainee Server",
+          "role": "Moderator Chat",
+          "image": "../assets/img/staff/muun.png"
+        },
+        {
+          "name": "Leon",
+          "description": "Trainee Server",
+          "role": "Partner Manager",
+          "image": "../assets/img/staff/leon.png"
         }
       ]
     }

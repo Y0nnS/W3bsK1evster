@@ -40,5 +40,17 @@
     "name": "Tame",
     "rank": "🏅",
     "image": "../assets/img/s7-chat.png"
+  },
+  {
+    "season": "Season #8",
+    "name": "Tame",
+    "rank": "🏅",
+    "image": "../assets/img/s8-chat.png"
+  },
+  {
+    "season": "Season #9",
+    "name": "Tame",
+    "rank": "🏅",
+    "image": "../assets/img/s9-chat.png"
   }
 ]
